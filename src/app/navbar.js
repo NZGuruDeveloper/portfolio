@@ -1,10 +1,10 @@
 import React from "react";
 import ThemeSwitch from "./ThemeSwitch";
 import Image from "next/image";
-import twitter from "../assets/images/icon-twitter.svg";
-import linkedin from "../assets/images/icon-linkedin.svg";
-import git from "../assets/images/icon-github.svg";
-import frontendMentor from "../assets/images/icon-frontend-mentor.svg";
+/* import twitter from "/assets/images/icon-twitter.svg";
+import linkedin from "/assets/images/icon-linkedin.svg";
+import git from "/assets/images/icon-github.svg";
+import frontendMentor from "/assets/images/icon-frontend-mentor.svg"; */
 
 export default (Navbar) => {
   return (
@@ -20,7 +20,7 @@ export default (Navbar) => {
           rel="noopener noreferrer"
         >
           <Image
-            src={git}
+            src="/assets/images/icon-github.svg"
             alt="logo"
             width={25}
             height={25}
@@ -33,7 +33,7 @@ export default (Navbar) => {
           rel="noopener noreferrer"
         >
           <Image
-            src={frontendMentor}
+            src="/assets/images/icon-frontend-mentor.svg"
             alt="logo"
             width={25}
             height={25}
@@ -46,7 +46,7 @@ export default (Navbar) => {
           rel="noopener noreferrer"
         >
           <Image
-            src={linkedin}
+            src="/assets/images/icon-linkedin.svg"
             alt="logo"
             width={25}
             height={25}
@@ -60,7 +60,7 @@ export default (Navbar) => {
           className="mr-7"
         >
           <Image
-            src={twitter}
+            src="/assets/images/icon-twitter.svg"
             alt="logo"
             width={25}
             height={25}
