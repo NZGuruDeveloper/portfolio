@@ -42,10 +42,10 @@ const projectsData = [
   },
 ];
 
-
+{/* md:grid grid-flow-row-dense grid-cols-2 grid-rows-3 */}
 export default function Projects() {
   return (
-    <div id="projects" className="md:grid grid-flow-row-dense grid-cols-2 grid-rows-3 gap-8">
+    <div id="projects" className="flex justify-center md:justify-between  md:justity-end flex-wrap">
        {projectsData.map((project) => (
          <div id="projects-images" className="">
           <Image
@@ -54,7 +54,7 @@ export default function Projects() {
             width={465}
             height={400}
             key={project.id}
-            className="rounded-xl mt-8 mb-3">
+            className="mt-8 mb-3">
               
             </Image>
 
