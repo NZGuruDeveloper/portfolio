@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </div>
       <hr className="mt-10 md:mt-56 mb-8"></hr>
-      <div className="w-full" id="skills">
+      <div className="w-full text-center md:text-left" id="skills">
         <div className="flex justify-center md:justify-between md:justity-end flex-wrap mb-8 md:gap-0 gap-12">
           <div className="basis-1/3">
             <p className="text-4xl">HTML</p>
