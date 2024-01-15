@@ -47,7 +47,7 @@ export default function Projects() {
   return (
     <div id="projects" className="flex justify-center md:justify-between  md:justity-end flex-wrap">
        {projectsData.map((project) => (
-         <div id="projects-images" className="">
+         <div id="projects-images" className="" key={project.id}>
           <Image
             src={project.image}
             alt={project.technologies}
