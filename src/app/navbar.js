@@ -6,7 +6,7 @@ import linkedin from "/assets/images/icon-linkedin.svg";
 import git from "/assets/images/icon-github.svg";
 import frontendMentor from "/assets/images/icon-frontend-mentor.svg"; */
 
-export default (Navbar) => {
+export default function Navbar() {
   return (
     <div className="md:z-50 flex items-center md:items-stretch justify-between flex-wrap">
       <a href="#" target="_blank" rel="noopener noreferrer">
