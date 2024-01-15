@@ -2,10 +2,11 @@ import Image from "next/image";
 //import imageProfileDesktop from "/assets/images/image-profile-desktop.webp";
 import Projects from "./Components/Projects";
 
+
 export default function Home() {
   return (
     <div>
-      <div className="flex justify-between  flex-wrap" id="intro">
+      <div className="flex justify-between flex-wrap" id="intro">
         <Image
           src="/assets/images/pattern-rings.svg"
           alt="rings"
@@ -37,19 +38,12 @@ export default function Home() {
             Based in the UK, I&apos;m a front-end developer passionate about
             building accessible web apps that users love.
           </p>
-          <p className="underline underline-offset-8 decoration-[#4EE1A0] hover:text-[#4EE1A0]">
+          <a href="#contact" className="underline underline-offset-8 decoration-[#4EE1A0] hover:text-[#4EE1A0]">
             CONTACT ME
-          </p>
+          </a>
         </div>
         <div className="md:-z-50" id="right-side">
-          <Image
-            src="/assets/images/pattern-circle.svg"
-            alt="circle"
-            width={100}
-            height={100}
-            priority
-            className="absolute z-50 md:relative top-2/3 md:top-3/4 right-[-42px] md:right-72"
-          />
+          
         </div>
       </div>
       <hr className="mt-10 md:mt-56 mb-8"></hr>
@@ -86,9 +80,9 @@ export default function Home() {
       <div className="mt-20" id="projects">
         <div id="projects-heading" className="flex justify-between justify-end">
           <div className="text-6xl font-bold">Projects</div>
-          <p className="underline underline-offset-8 decoration-[#4EE1A0] hover:text-[#4EE1A0] pt-5">
+          <a href="#contact" className="underline underline-offset-8 decoration-[#4EE1A0] hover:text-[#4EE1A0] pt-5">
             CONTACT ME
-          </p>
+          </a>
         </div>
         <div
           id="projects-list"
