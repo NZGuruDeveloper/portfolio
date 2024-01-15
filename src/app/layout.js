@@ -3,6 +3,7 @@ import "./globals.css";
 import { Providers } from "./providers";
 import Navbar from "./navbar";
 import Contact from "./Components/Contact";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,15 @@ export default function RootLayout({ children }) {
               <Contact />
             </div>
             <div className="md:w-3/4 mx-auto p-4">
-            <hr className="my-8" />
+              <Image
+                src="/assets/images/pattern-rings.svg"
+                alt="rings"
+                width={400}
+                height={50}
+                priority
+                className="absolute md:relative -z-60 md:bottom-0 left-[-200px] md:left-100 "
+              />
+              <hr className="my-8" />
               <Navbar />
             </div>
           </div>
